@@ -1,80 +1,66 @@
 magic
 tech sky130B
 magscale 1 2
-timestamp 1666563589
+timestamp 1667211484
 << metal1 >>
-rect 3252 54072 3452 54074
-rect 3252 53876 14244 54072
-rect 3252 53874 3452 53876
-rect 14051 50223 14242 53876
-rect -471 50153 14242 50223
-rect -471 50033 49027 50153
-rect -469 33897 -283 50033
-rect 14051 49962 49027 50033
-rect 14051 49002 14242 49962
-rect 11809 48811 16799 49002
-rect -1135 33711 57 33897
-rect 48836 33510 49027 49962
-rect 37411 33319 57455 33510
-rect -870 26208 -670 26408
-rect 54668 23746 54868 23946
-rect 27702 20700 27902 20704
-rect 2222 20312 2422 20512
-rect 26200 20504 27902 20700
-rect 26200 20500 27800 20504
-rect 8983 8824 43989 9015
-rect 10234 6594 10425 8824
-rect 43798 8640 43989 8824
-rect 46000 8640 52500 8800
-rect 43798 8449 53893 8640
-rect 10232 6394 10432 6594
+rect 11988 35104 44904 36638
+rect 11988 35102 41536 35104
+rect 42778 35102 44904 35104
+rect 43912 30614 44884 35102
+rect 42806 30248 43856 30284
+rect 42806 29764 43858 30248
+rect 16562 25252 16762 25452
+rect 12828 6758 13028 6958
+rect 14266 6710 14466 6910
+rect 15146 6706 15346 6906
+rect 16380 6638 16580 6838
 use sky130_fd_pr__cap_mim_m3_1_3HBNLG  XC1
-timestamp 1666302226
-transform 1 0 37842 0 1 20172
+timestamp 1667069721
+transform 1 0 15164 0 1 14122
 box -3150 -3100 3149 3100
-use sky130_fd_pr__nfet_g5v0d10v5_S4THBE  XM1
-timestamp 1666302226
-transform 1 0 20420 0 1 11528
-box -828 -2658 828 2658
-use sky130_fd_pr__nfet_g5v0d10v5_S4THBE  XM3
-timestamp 1666302226
-transform 1 0 10072 0 1 11452
-box -828 -2658 828 2658
-use sky130_fd_pr__pfet_g5v0d10v5_8EEZA6  XM4
-timestamp 1666302226
-transform 1 0 22521 0 1 20339
-box -4003 -3497 4003 3497
-use sky130_fd_pr__pfet_g5v0d10v5_UHUMBS  XM5
-timestamp 1666302226
-transform 1 0 14289 0 1 38819
-box -2745 -10251 2745 10251
-use sky130_fd_pr__pfet_g5v0d10v5_JXA3TU  XM6
-timestamp 1666302226
-transform 1 0 47437 0 1 30883
-box -10293 -2697 10293 2697
-use sky130_fd_pr__nfet_g5v0d10v5_Z5J6BG  XM7
-timestamp 1666302226
-transform 1 0 49150 0 1 13544
-box -3344 -5058 3344 5058
-use sky130_fd_pr__pfet_g5v0d10v5_8EQKA6  XM8
-timestamp 1666302226
-transform 1 0 -552 0 1 31265
-box -858 -2697 858 2697
-use sky130_fd_pr__pfet_g5v0d10v5_8EEZA6  sky130_fd_pr__pfet_g5v0d10v5_8EEZA6_0
-timestamp 1666302226
-transform 1 0 9875 0 1 20339
-box -4003 -3497 4003 3497
+use sky130_fd_pr__nfet_g5v0d10v5_S447FE  XM1
+timestamp 1667069824
+transform 1 0 26542 0 1 13409
+box -828 -2627 828 2627
+use sky130_fd_pr__pfet_g5v0d10v5_AGKGBY  XM2
+timestamp 1667120857
+transform 1 0 36618 0 -1 25490
+box -3374 -3462 3374 3462
+use sky130_fd_pr__nfet_01v8_B39JSP  XM3
+timestamp 1667121247
+transform 1 0 20618 0 1 13601
+box -796 -2579 796 2579
+use sky130_fd_pr__pfet_g5v0d10v5_AGFYAY  XM4
+timestamp 1667069824
+transform 1 0 23335 0 1 25352
+box -4003 -3462 4003 3462
+use sky130_fd_pr__pfet_g5v0d10v5_NGD7BL  XM5
+timestamp 1667120857
+transform -1 0 15191 0 -1 32732
+box -2745 -2662 2745 2662
+use sky130_fd_pr__pfet_g5v0d10v5_PEV8FT  XM6
+timestamp 1667069824
+transform 1 0 29619 0 1 32754
+box -10293 -2662 10293 2662
+use sky130_fd_pr__nfet_g5v0d10v5_59B6FY  XM7
+timestamp 1667069824
+transform 1 0 36772 0 1 15917
+box -3344 -5027 3344 5027
+use sky130_fd_pr__pfet_g5v0d10v5_VSGNQY  XM8
+timestamp 1667211103
+transform 1 0 43332 0 1 32694
+box -858 -2662 858 2662
 << labels >>
-flabel metal1 27702 20504 27902 20704 0 FreeSans 256 0 0 0 Vinp
-port 1 nsew
-flabel metal1 3252 53874 3452 54074 0 FreeSans 256 0 0 0 VDD
-port 3 nsew
-flabel metal1 2222 20312 2422 20512 0 FreeSans 256 0 0 0 Vinn
+flabel metal1 16562 25252 16762 25452 0 FreeSans 256 0 0 0 Vinn
 port 0 nsew
-flabel metal1 10232 6394 10432 6594 0 FreeSans 256 0 0 0 GND
+flabel metal1 12642 35948 12842 36148 0 FreeSans 256 0 0 0 VDD
+port 3 nsew
+flabel metal1 12828 6758 13028 6958 0 FreeSans 256 0 0 0 Vinp
+port 1 nsew
+flabel metal1 14266 6710 14466 6910 0 FreeSans 256 0 0 0 GND
 port 2 nsew
-flabel metal1 -870 26208 -670 26408 0 FreeSans 256 0 0 0 Ibias
-port 4 nsew
-flabel metal1 54668 23746 54868 23946 0 FreeSans 256 0 0 0 Vout
+flabel metal1 15146 6706 15346 6906 0 FreeSans 256 0 0 0 Vout
 port 5 nsew
+flabel metal1 16380 6638 16580 6838 0 FreeSans 256 0 0 0 Ibias
+port 4 nsew
 << end >>
