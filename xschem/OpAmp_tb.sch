@@ -47,6 +47,7 @@ C {devices/code_shown.sym} -170 -230 0 0 {name=NGSPICE
 only_toplevel=true
 value="* this option enables mos model bin 
 * selection based on W/NF instead of W
+.include /foss/designs/SigmaDelta_ADC/mag/spice/OpAmp.spice
 .option wnflag=1 
 .control
 tran 1u 5m

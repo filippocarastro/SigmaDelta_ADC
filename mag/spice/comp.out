@@ -1,0 +1,4 @@
+Equate pins:  cell OpAmp.spice and/or ../../xschem/spice/OpAmp.spice has no elements.
+Cells have no pins;  pin matching not needed.
+Device classes OpAmp.spice and ../../xschem/spice/OpAmp.spice are equivalent.
+Verify:  cell ../../xschem/spice/OpAmp.spice has no elements and/or nodes.  Not checked.
