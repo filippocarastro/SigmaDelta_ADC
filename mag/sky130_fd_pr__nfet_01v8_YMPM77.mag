@@ -1,0 +1,70 @@
+magic
+tech sky130B
+magscale 1 2
+timestamp 1667934541
+<< pwell >>
+rect -796 -2579 796 2579
+<< nmos >>
+rect -600 -2431 600 2369
+<< ndiff >>
+rect -658 1879 -600 2369
+rect -658 -1941 -646 1879
+rect -612 -1941 -600 1879
+rect -658 -2431 -600 -1941
+rect 600 1879 658 2369
+rect 600 -1941 612 1879
+rect 646 -1941 658 1879
+rect 600 -2431 658 -1941
+<< ndiffc >>
+rect -646 -1941 -612 1879
+rect 612 -1941 646 1879
+<< psubdiff >>
+rect -760 2509 760 2543
+rect -760 -2509 -726 2509
+rect 726 -2509 760 2509
+rect -760 -2543 -531 -2509
+rect 531 -2543 760 -2509
+<< psubdiffcont >>
+rect -531 -2543 531 -2509
+<< poly >>
+rect -542 2441 542 2457
+rect -542 2424 -526 2441
+rect -600 2407 -526 2424
+rect 526 2424 542 2441
+rect 526 2407 600 2424
+rect -600 2369 600 2407
+rect -600 -2457 600 -2431
+<< polycont >>
+rect -526 2407 526 2441
+<< locali >>
+rect -542 2407 -526 2441
+rect 526 2407 542 2441
+rect -646 1879 -612 1895
+rect -646 -1957 -612 -1941
+rect 612 1879 646 1895
+rect 612 -1957 646 -1941
+rect -547 -2543 -531 -2509
+rect 531 -2543 547 -2509
+<< viali >>
+rect -526 2407 526 2441
+rect -646 -1941 -612 1879
+rect 612 -1941 646 1879
+<< metal1 >>
+rect -538 2441 538 2447
+rect -538 2407 -526 2441
+rect 526 2407 538 2441
+rect -538 2401 538 2407
+rect -652 1879 -606 1891
+rect -652 -1941 -646 1879
+rect -612 -1941 -606 1879
+rect -652 -1953 -606 -1941
+rect 606 1879 652 1891
+rect 606 -1941 612 1879
+rect 646 -1941 652 1879
+rect 606 -1953 652 -1941
+<< properties >>
+string FIXED_BBOX -743 -2526 743 2526
+string gencell sky130_fd_pr__nfet_01v8
+string library sky130
+string parameters w 24 l 6 m 1 nf 1 diffcov 80 polycov 90 guard 1 glc 0 grc 0 gtc 0 gbc 1 tbcov 80 rlcov 80 topc 1 botc 0 poverlap 0 doverlap 1 lmin 0.15 wmin 0.42 compatible {sky130_fd_pr__nfet_01v8 sky130_fd_pr__nfet_01v8_lvt  sky130_fd_bs_flash__special_sonosfet_star  sky130_fd_pr__nfet_g5v0d10v5 sky130_fd_pr__nfet_05v0_nvt  sky130_fd_pr__nfet_03v3_nvt} full_metal 0 viasrc 80 viadrn 80 viagate 90 viagb 0 viagr 0 viagl 0 viagt 0
+<< end >>

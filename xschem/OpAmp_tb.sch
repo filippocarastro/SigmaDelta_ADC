@@ -54,7 +54,7 @@ tran 1u 5m
 plot V(Vdd) V(Vinp) V(Vout)
 write test_opamp.raw
 .endc"}
-C {devices/code.sym} 350 -200 0 0 {name=s2 only_toplevel=false value=".lib /foss/designs/PDK/sky130B/libs.tech/ngspice/sky130.lib.spice tt
+C {devices/code.sym} 410 -200 0 0 {name=s2 only_toplevel=false value=".lib /foss/designs/PDK/sky130B/libs.tech/ngspice/sky130.lib.spice tt
 .include /foss/designs/PDK/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"}
 C {devices/vsource_arith.sym} -200 50 0 0 {name=E1 VOL="'cos(time*6e3)'"}
 C {OpAmp.sym} 130 20 0 0 {name=x1}
