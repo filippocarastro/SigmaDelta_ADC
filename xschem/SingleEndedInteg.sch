@@ -93,9 +93,8 @@ N 60 -340 60 -320 {
 lab=reset}
 N 0 -340 60 -340 {
 lab=reset}
-C {opamp.sym} 50 20 0 0 {name=x1}
 C {sky130_fd_pr/cap_mim_m3_1.sym} -270 0 3 0 {name=C1 model=cap_mim_m3_1 W=17.55 L=15 MF=6 spiceprefix=X}
-C {sky130_fd_pr/nfet_01v8.sym} -100 -20 3 1 {name=M12
+C {sky130_fd_pr/nfet_01v8.sym} -100 -20 1 0 {name=M12
 L=0.15
 W=0.75
 ad="'W * 0.29'" pd="'2 * (W + 0.29)'"
@@ -117,7 +116,7 @@ nf=1 mult=6
 model=nfet_01v8
 spiceprefix=X
 }
-C {sky130_fd_pr/nfet_01v8.sym} -410 -20 3 1 {name=M10
+C {sky130_fd_pr/nfet_01v8.sym} -410 -20 1 0 {name=M10
 L=0.15
 W=0.75
 ad="'W * 0.29'" pd="'2 * (W + 0.29)'"
@@ -128,7 +127,7 @@ nf=1 mult=6
 model=nfet_01v8
 spiceprefix=X
 }
-C {sky130_fd_pr/nfet_01v8.sym} -360 110 0 0 {name=M11
+C {sky130_fd_pr/nfet_01v8.sym} -360 110 2 1 {name=M11
 L=0.15
 W=0.75
 ad="'W * 0.29'" pd="'2 * (W + 0.29)'"
@@ -165,3 +164,4 @@ C {devices/lab_pin.sym} -100 -100 1 0 {name=l10 sig_type=std_logic lab=phi2
 C {devices/lab_pin.sym} -270 110 1 0 {name=l10 sig_type=std_logic lab=phi1
 }
 C {devices/ipin.sym} 0 -340 0 0 {name=p3 lab=reset}
+C {OpAmp.sym} 50 20 0 0 {name=x1}

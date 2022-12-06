@@ -5,40 +5,40 @@ K {}
 V {}
 S {}
 E {}
-N -750 150 -750 190 { lab=GND}
-N -750 50 -750 90 { lab=vss}
-N -650 50 -650 90 { lab=vdd}
-N -650 150 -650 190 { lab=vss}
-N -280 140 -280 180 { lab=vss}
-N -280 20 -150 20 {
+N -740 140 -740 180 { lab=GND}
+N -740 40 -740 80 { lab=vss}
+N -640 40 -640 80 { lab=vdd}
+N -640 140 -640 180 { lab=vss}
+N -270 130 -270 170 { lab=vss}
+N -270 10 -140 10 {
 lab=#net1}
-N -280 20 -280 80 {
+N -270 10 -270 70 {
 lab=#net1}
-N 0 -100 0 -70 { lab=vdd}
-N 0 70 0 90 { lab=vss}
-N 150 0 230 0 { lab=vout}
-N 230 0 230 30 { lab=vout}
-N 230 90 230 140 { lab=vss}
-N -190 -40 -150 -40 {
+N 10 -110 10 -80 { lab=vdd}
+N 10 60 10 80 { lab=vss}
+N 160 -10 240 -10 { lab=vout}
+N 240 -10 240 20 { lab=vout}
+N 240 80 240 130 { lab=vss}
+N -180 -50 -140 -50 {
 lab=vss}
-N -480 40 -480 80 { lab=vsen}
-N -480 140 -480 180 { lab=vss}
-N -480 0 -480 40 {
+N -470 30 -470 70 { lab=vsen}
+N -470 130 -470 170 { lab=vss}
+N -470 -10 -470 30 {
 lab=vsen}
-N -480 0 -150 0 {
+N -470 -10 -140 -10 {
 lab=vsen}
-N -750 -120 -750 -80 { lab=vss}
-N -650 -120 -650 -80 { lab=vss}
-N -750 -240 -750 -180 {
+N -740 -130 -740 -90 { lab=vss}
+N -640 -130 -640 -90 { lab=vss}
+N -740 -250 -740 -190 {
 lab=phi1}
-N -650 -240 -650 -180 {
+N -640 -250 -640 -190 {
 lab=phi2}
-N -200 40 -150 40 {
+N -190 30 -140 30 {
 lab=phi2}
-N -200 -20 -150 -20 {
+N -190 -30 -140 -30 {
 lab=phi1}
-C {SingleEndedInteg.sym} 0 0 0 0 {name=x1}
-C {devices/netlist_not_shown.sym} -680 -420 0 0 {name=SIMULATION only_toplevel=false 
+C {SingleEndedInteg.sym} 10 -10 0 0 {name=x1}
+C {devices/netlist_not_shown.sym} -670 -430 0 0 {name=SIMULATION only_toplevel=false 
 
 value="
 
@@ -77,28 +77,28 @@ value="
 
 .end
 "}
-C {devices/vsource.sym} -750 120 0 0 {name=V1 value=DC\{vss\}}
-C {devices/vsource.sym} -650 120 0 0 {name=V2 value=DC\{vdd\}}
-C {devices/gnd.sym} -750 190 0 0 {name=l14 lab=GND}
-C {devices/lab_pin.sym} -650 50 1 0 {name=l15 sig_type=std_logic lab=vdd}
-C {devices/lab_pin.sym} -750 50 1 0 {name=l16 sig_type=std_logic lab=vss}
-C {devices/lab_pin.sym} -650 190 3 0 {name=l18 sig_type=std_logic lab=vss}
-C {devices/isource.sym} -280 110 0 0 {name=I0 value=DC\{iref\}}
-C {devices/lab_pin.sym} -280 180 3 0 {name=l22 sig_type=std_logic lab=vss}
-C {devices/lab_pin.sym} 0 -100 1 0 {name=l8 sig_type=std_logic lab=vdd}
-C {devices/lab_pin.sym} 0 90 3 0 {name=l1 sig_type=std_logic lab=vss}
-C {devices/lab_wire.sym} 200 0 0 0 {name=l3 sig_type=std_logic lab=vout}
-C {devices/capa.sym} 230 60 0 0 {name=C1
+C {devices/vsource.sym} -740 110 0 0 {name=V1 value=DC\{vss\}}
+C {devices/vsource.sym} -640 110 0 0 {name=V2 value=DC\{vdd\}}
+C {devices/gnd.sym} -740 180 0 0 {name=l14 lab=GND}
+C {devices/lab_pin.sym} -640 40 1 0 {name=l15 sig_type=std_logic lab=vdd}
+C {devices/lab_pin.sym} -740 40 1 0 {name=l16 sig_type=std_logic lab=vss}
+C {devices/lab_pin.sym} -640 180 3 0 {name=l18 sig_type=std_logic lab=vss}
+C {devices/isource.sym} -270 100 0 0 {name=I0 value=DC\{iref\}}
+C {devices/lab_pin.sym} -270 170 3 0 {name=l22 sig_type=std_logic lab=vss}
+C {devices/lab_pin.sym} 10 -110 1 0 {name=l8 sig_type=std_logic lab=vdd}
+C {devices/lab_pin.sym} 10 80 3 0 {name=l1 sig_type=std_logic lab=vss}
+C {devices/lab_wire.sym} 210 -10 0 0 {name=l3 sig_type=std_logic lab=vout}
+C {devices/capa.sym} 240 50 0 0 {name=C1
 m=1
 value=20p
 footprint=1206
 device="ceramic capacitor"}
-C {devices/lab_pin.sym} 230 140 3 0 {name=l2 sig_type=std_logic lab=vss}
-C {devices/lab_pin.sym} -190 -40 1 0 {name=l22 sig_type=std_logic lab=vss}
-C {devices/vsource.sym} -480 110 0 0 {name=V4 value="sin(0.5 \{vac\} 50k) dc 0 ac 1"}
-C {devices/lab_wire.sym} -480 60 3 0 {name=l24 sig_type=std_logic lab=vsen}
-C {devices/lab_pin.sym} -480 180 3 0 {name=l22 sig_type=std_logic lab=vss}
-C {devices/vsource.sym} -750 -150 0 0 {name=V3 value="pwl 
+C {devices/lab_pin.sym} 240 130 3 0 {name=l2 sig_type=std_logic lab=vss}
+C {devices/lab_pin.sym} -180 -50 1 0 {name=l4 sig_type=std_logic lab=vss}
+C {devices/vsource.sym} -470 100 0 0 {name=V4 value="sin(0.5 \{vac\} 50k) dc 0 ac 1"}
+C {devices/lab_wire.sym} -470 50 3 0 {name=l24 sig_type=std_logic lab=vsen}
+C {devices/lab_pin.sym} -470 170 3 0 {name=l5 sig_type=std_logic lab=vss}
+C {devices/vsource.sym} -740 -160 0 0 {name=V3 value="pwl 
 +0 0
 +29.9u 0
 +30u vdd
@@ -108,7 +108,7 @@ C {devices/vsource.sym} -750 -150 0 0 {name=V3 value="pwl
 +90u vdd
 +119.9u vdd
 +120u 0"}
-C {devices/vsource.sym} -650 -150 0 0 {name=V5 value="pwl 
+C {devices/vsource.sym} -640 -160 0 0 {name=V5 value="pwl 
 +0 vdd
 +24.9u vdd
 +25u 0
@@ -118,9 +118,10 @@ C {devices/vsource.sym} -650 -150 0 0 {name=V5 value="pwl
 +85u 0
 +124.9u 0
 +125u vdd"}
-C {devices/lab_pin.sym} -750 -80 3 0 {name=l18 sig_type=std_logic lab=vss}
-C {devices/lab_pin.sym} -650 -80 3 0 {name=l18 sig_type=std_logic lab=vss}
-C {devices/lab_pin.sym} -750 -240 1 0 {name=l16 sig_type=std_logic lab=phi1}
-C {devices/lab_pin.sym} -650 -240 1 0 {name=l16 sig_type=std_logic lab=phi2}
-C {devices/lab_pin.sym} -200 -20 0 0 {name=l16 sig_type=std_logic lab=phi1}
-C {devices/lab_pin.sym} -200 40 0 0 {name=l16 sig_type=std_logic lab=phi2}
+C {devices/lab_pin.sym} -740 -90 3 0 {name=l6 sig_type=std_logic lab=vss}
+C {devices/lab_pin.sym} -640 -90 3 0 {name=l7 sig_type=std_logic lab=vss}
+C {devices/lab_pin.sym} -740 -250 1 0 {name=l9 sig_type=std_logic lab=phi1}
+C {devices/lab_pin.sym} -640 -250 1 0 {name=l10 sig_type=std_logic lab=phi2}
+C {devices/lab_pin.sym} -190 -30 0 0 {name=l11 sig_type=std_logic lab=phi1}
+C {devices/lab_pin.sym} -190 30 0 0 {name=l12 sig_type=std_logic lab=phi2}
+C {OneBitDAC.sym} 0 360 0 0 {name=x2}
