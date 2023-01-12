@@ -52,7 +52,7 @@ value="
 .options TEMP = 65.0
 
 * Include Models
-.lib /home/filippo/work/PDKs/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.lib /foss/pdks/sky130A/libs.tech/ngspice/sky130.lib.spice tt
 
 * OP Parameters & Singals to save
 .save all

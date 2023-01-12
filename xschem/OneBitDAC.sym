@@ -24,7 +24,7 @@ B 5 -92.5 -2.5 -87.5 2.5 {name=vin dir=in }
 B 5 97.5 -2.5 102.5 2.5 {name=vout dir=out }
 B 5 17.5 67.5 22.5 72.5 {name=vref_n dir=inout }
 B 5 -22.5 67.5 -17.5 72.5 {name=vss dir=inout }
-T {@symname} -28.5 -6 0 0 0.3 0.3 {}
+T {@symname} -48.5 -6 0 0 0.3 0.3 {}
 T {@name} 85 -62 0 0 0.2 0.2 {}
 T {vref_p} 16 -45 3 1 0.2 0.2 {}
 T {vdd} -24 -45 3 1 0.2 0.2 {}
